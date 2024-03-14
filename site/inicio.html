@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TecAnatomy</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+            rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/png"
+            href="image-removebg-preview.png">
+
+        <style>
+        * {
+            font-family: "Madimi One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        * a{
+            text-decoration: none;
+            color: black;
+
+        }
+        a:link {
+            text-decoration: none;
+            color: black;
+            
+        }
+        a:visited{
+            color: black;
+        }
+        body {
+            background-color: rgb(58, 58, 58);
+        }
+        
+        ul {
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            align-items: center;
+            
+        }
+        
+        li {
+            list-style-type: none;
+            display: inline;
+            margin-left: 100px;
+            text-decoration: none;
+        }
+        .menu-button:hover{
+            border-bottom: 2px solid black;
+        }
+        .logo{
+            display: flex;
+          
+            justify-content: center;
+            align-items: center;
+        }
+        .centralizar {
+            text-align: center;
+            align-items: center;
+            display: flex;
+           
+        }
+    </style>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header>
+            <ul class="menu-container">
+                <li class="logo"><a href="inicio.html"><img
+                            src="./image-removebg-preview.png"
+                            alt="logo da empresa"
+                            height="80"
+                            width="130">
+                        <h1 class="title-logo">TecAnatomy</a></h1></li>
+                <li><a class="menu-button"
+                        href="hardware.html">Hardware</a></li>
+                <li><a class="menu-button"
+                        href="software.html">Software</a></li>
+                <li> <a class="menu-button" href="videos.html">Videos</a> </li>
+                <li><a class="menu-button" href="contato.html">Contatos</a></li>
+                <li><a class="menu-button" href="audio.html">Áudios</a></li>
+            </ul>
+
+            <div id="carouselExampleInterval" class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="hardware.png" class="d-block w-100" alt="..."
+                            height="500" width="800">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="software.png" class="d-block w-100" alt="..."
+                            height="500" width="800">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="contato.png" class="d-block w-100" alt="..."
+                            height="500" width="800">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="centralizar"<img src="fundo.png" alt=""   height="500" width="1350"></div>
+
+           
+           
+        </header>
+       
+        <footer>
+            <img src="rodape.png" alt="">
+
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
